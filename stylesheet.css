@@ -1,0 +1,63 @@
+section {
+    background-color: #463d33;
+    }
+
+.item-location {
+    border: solid;
+    font-size: 25;
+    color: rgb(204, 138, 39);
+    background-color: darkolivegreen;
+    width: 60%;
+}
+
+.dry {
+    background-color: grey;
+    height: 200;
+    width: 88;
+    padding: 7 7 7 7;
+    border: solid;
+    float: right;
+    margin-right: 50%;
+}
+
+.produce {
+    background-color: grey;
+    height: 200;
+    width: 88;
+    padding: 7 7 7 7;
+    border: solid;
+    float: left;
+    /* margin-left: 50; */
+}
+
+
+.frozen {
+    background-color: grey;
+    height: 200;
+    width: 88;
+    padding: 7 7 7 7;
+    border: solid;
+    float: right;
+    margin-right: 50%;
+}
+
+
+.fridge {
+    background-color: grey;
+    height: 200;
+    width: 88;
+    padding: 7 7 7 7;
+    border: solid;
+    float: left;
+}
+
+/* .item-location{  height: 200;
+    width: 88;
+    padding: 7 7 7 7;
+    border: solid;
+    float: left;
+
+} */
+div{
+    height: 250;
+}
