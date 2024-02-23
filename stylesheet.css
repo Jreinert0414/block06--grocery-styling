@@ -1,5 +1,6 @@
-section {
+header {
     background-color: #463d33;
+    
     }
 
 .item-location {
@@ -7,34 +8,42 @@ section {
     font-size: 25;
     color: rgb(204, 138, 39);
     background-color: darkolivegreen;
-    width: 60%;
+    text-align: center;
+    /* width: 60%; */
+}
+.food-items {
+    height: 220;
+  
+
 }
 
 .dry {
     background-color: grey;
     height: 200;
-    width: 88;
+    width: 100;
     padding: 7 7 7 7;
     border: solid;
     float: right;
     margin-right: 50%;
+    display: inline;
 }
 
 .produce {
     background-color: grey;
     height: 200;
-    width: 88;
+    width: 100;
     padding: 7 7 7 7;
     border: solid;
     float: left;
-    /* margin-left: 50; */
+
+
 }
 
 
 .frozen {
     background-color: grey;
     height: 200;
-    width: 88;
+    width: 100;
     padding: 7 7 7 7;
     border: solid;
     float: right;
@@ -45,19 +54,25 @@ section {
 .fridge {
     background-color: grey;
     height: 200;
-    width: 88;
+    width: 100;
     padding: 7 7 7 7;
     border: solid;
     float: left;
 }
-
-/* .item-location{  height: 200;
-    width: 88;
-    padding: 7 7 7 7;
-    border: solid;
-    float: left;
-
-} */
 div{
-    height: 250;
+    height: 227;
+    display: inline-block;
+    vertical-align: top;
+ 
 }
+
+#banana {
+    float: 25%;
+}
+
+
+#pasta {
+    float: right 75%;
+
+}
+ 
